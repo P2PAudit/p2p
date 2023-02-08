@@ -19,7 +19,7 @@ function App() {
             </div>
             <div className="register">
               <div className="registerbutton">
-                Register2
+                Register
               </div>
             </div>
         </div>
