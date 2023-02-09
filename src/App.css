@@ -119,11 +119,8 @@
 
 .App-header {
   background-color: black;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
+  width: 100vw;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -143,14 +140,13 @@
 
 .navbar {
   display: flex;
-  position: absolute;
-  top: 30px;
+  padding-top: 2%;
   width: 100%;
-  height: 100px;
+  height: 100%;
 }
 
 .logo {
-  margin-left: 5%;
+  margin-left: 3%;
   align-self: center;
   height: 80px;
 }
@@ -167,7 +163,7 @@
   line-height: 44px;
   text-align: center;
 
-  background: radial-gradient(50% 50% at 50% 50%, #09FD97 0%, rgba(2, 255, 179, 0.17) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #00ff77 0%, rgba(0, 206, 144, 0.456) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -237,4 +233,25 @@
 
 .registerbutton {
 
+}
+
+.body {
+  margin-top: 4%;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 100px;
+}
+
+.bodycompete {
+  background: linear-gradient(180deg, rgba(199, 255, 229, 0.99) 0%, rgba(114, 255, 187, 0.99) 38.54%, rgba(8, 95, 15, 0.99) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bodytext {
+  margin-top: 2%;
 }
