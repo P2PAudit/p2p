@@ -4,7 +4,7 @@ import logo from './images/logop2p.png';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <nav className="App-header">
         <div className="navbar">
             <img src={logo} className="logo" alt="logo" />
             <div className="p2paudit">
@@ -16,14 +16,14 @@ function App() {
               <div className="sectionh">Reports</div>
               <div className="sectionh">Marathons</div>
               <div className="sectionh">Docs</div>
-            </div>
-            <div className="register">
-              <div className="registerbutton">
-                Register
+              <div className="sectionhbtn">
+                <div className="register">
+                  Register
+                </div>
               </div>
             </div>
         </div>
-      </header>
+      </nav>
     </div>
   );
 }
