@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logop2p.png';
+import logo from '../images/logop2p.svg';
 import { Link } from "react-router-dom";
 
 const header = () => {
