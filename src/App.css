@@ -239,9 +239,9 @@
   margin-top: 4%;
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 4rem;
-  line-height: 100px;
+  line-height: 90px;
 }
 
 .bodycompete {
@@ -253,5 +253,48 @@
 }
 
 .bodytext {
+  margin-top: 1%;
+}
+
+.auditbutton {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  width: 70%;
+  height: 3rem;
+  background: linear-gradient(90deg, #73EEB3 8.68%, #2E6838 89.75%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.joinbutton {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+  margin: auto;
   margin-top: 2%;
+  width: 70%;
+  height: 3rem;
+  background: #181818;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #55F9AA;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
 }

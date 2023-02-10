@@ -11,6 +11,16 @@ const Body = () => {
         Join our 2-Layer-Protection-Plan <br />
         to secure your project
       </div>
+      <div className="auditbutton">
+        <div>
+          Get your Audit Done today.
+        </div>
+      </div>
+      <div className="joinbutton">
+        <div>
+          Join Our Crowdsoure Audit
+        </div>
+      </div>
     </div>
   )
 }
