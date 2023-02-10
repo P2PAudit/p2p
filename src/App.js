@@ -8,6 +8,7 @@ import Reports from './components/Reports';
 import Docs from './components/Docs';
 import Register from './components/Register';
 import Help from './components/Help.jsx';
+import Footer from './components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -32,6 +33,7 @@ function App() {
                 <Route path="p2p/help" element={<Help />} />
                 <Route path="p2p/register" element={<Register />} />
               </Routes>
+            <Footer />
           </div>
         </div>
       </Router>
