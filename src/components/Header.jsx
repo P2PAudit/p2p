@@ -17,11 +17,12 @@ const header = () => {
               <Link to='/p2p/connect' className="sectionh">Connect</Link>
               <Link to='/p2p/leaderboard' className="sectionh">LeaderBoard</Link>
               <Link to='/p2p/services' className="sectionh">Services</Link>
-              <Link to='/p2p/reports' className="sectionh">Reports</Link>
               <Link to='/p2p/docs' className="sectionh">Docs</Link>
+              <Link to='/p2p/reports' className="sectionh">Reports</Link>
+              <Link to='/p2p/help' className="sectionh">Help</Link>
               <Link to='/p2p/register' className="sectionhbtn">
                 <div className="register">
-                  Register
+                  Earn Rewards
                 </div>
               </Link>
             </div>

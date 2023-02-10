@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Reports from './components/Reports';
 import Docs from './components/Docs';
 import Register from './components/Register';
+import Help from './components/Help.jsx';
 
 import {
   BrowserRouter as Router,
@@ -26,8 +27,9 @@ function App() {
                 <Route path="p2p/connect" element={<Connect />} />
                 <Route path="p2p/leaderboard" element={<Leaderboard />} />
                 <Route path="p2p/services" element={<Services />} />
-                <Route path="p2p/reports" element={<Reports />} />
                 <Route path="p2p/docs" element={<Docs />} />
+                <Route path="p2p/reports" element={<Reports />} />
+                <Route path="p2p/help" element={<Help />} />
                 <Route path="p2p/register" element={<Register />} />
               </Routes>
           </div>
