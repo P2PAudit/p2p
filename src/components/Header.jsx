@@ -14,7 +14,7 @@ const header = () => {
               </div>
             </Link>
             <div className="sections">
-              <Link to='/p2p/connect' className="sectionh">Connect</Link>
+              <a href='#connect' className="sectionh">Connect</a>
               <Link to='/p2p/leaderboard' className="sectionh">LeaderBoard</Link>
               <Link to='/p2p/services' className="sectionh">Services</Link>
               <Link to='/p2p/docs' className="sectionh">Docs</Link>

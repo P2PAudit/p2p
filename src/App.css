@@ -734,6 +734,24 @@
   font-size: 15px;
 }
 
+.inputmsg {
+  padding: 11.5px 12.8273px;
+  width: 420px;
+  height: 90px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 9px;
+  /* margin-right: 1rem; */
+}
+
+.inputmsg::placeholder {
+  color: #999999;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .contactsubscribe {
   margin-left: 1rem;
   font-family: 'Rubik';
@@ -881,4 +899,8 @@
   line-height: 20px;
   letter-spacing: 0.2px;
   margin-bottom: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }

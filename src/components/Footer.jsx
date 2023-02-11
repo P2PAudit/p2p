@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <>
+    < >
     <Contact />
     <div className="footer">
 
@@ -80,7 +80,7 @@ const Footer = () => {
           
         </div>
       </div>
-      <a  href="/p2p" className="footericon link">
+      <a  href="#home" className="footericon link">
         <img src={logo2} alt="p2plogo" />
         <div className="p2pfooter">
           p2paudit.xyz
