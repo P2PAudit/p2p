@@ -5,10 +5,12 @@ import telegram from "../images/telegram.svg"
 import medium from "../images/medium.svg"
 import youtube from "../images/youtube.svg"
 import linkedin from "../images/linkedin.svg"
+import Contact from './Contact'
 
 const Footer = () => {
   return (
     <>
+    <Contact />
     <div className="footer">
 
       <div className="footersection">
@@ -77,8 +79,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="icon">
-        helo
+      <div className="footericon">
+        <img src="" alt="" />
+        <div className="p2pfooter">
+          p2paudit.xyz
+        </div>
       </div>
 
       <div className="socialmedia">

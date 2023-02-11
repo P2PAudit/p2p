@@ -549,6 +549,7 @@
   width: 80%;
   margin: auto;
   padding-bottom: 2rem;
+  padding-top: 5rem;
 }
 
 .footersection {
@@ -582,6 +583,31 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+}
+
+.footericon {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.p2pfooter {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  background: radial-gradient(50% 50% at 50% 50%, #09FD97 0%, rgba(2, 255, 179, 0.17) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .socialmedia {
@@ -639,4 +665,59 @@
   font-size: 16px;
   line-height: 30px;
   padding-bottom: 1rem;
+}
+
+.contacthead {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.contacttext {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contactfill {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inputemail {
+  padding: 11.5px 12.8273px;
+  width: 203.38px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 9px;
+  margin-right: 1rem;
+}
+
+.inputemail::placeholder {
+  color: #999999;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contactsubscribe {
+  margin-left: 1rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #181818;
+  color: white;
+  width: 184.67px;
+  height: 42px;
+  border: 2px solid #09FD97;
+  border-radius: 9999px;
 }
