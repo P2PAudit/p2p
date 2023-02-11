@@ -6,6 +6,8 @@ import medium from "../images/medium.svg"
 import youtube from "../images/youtube.svg"
 import linkedin from "../images/linkedin.svg"
 import Contact from './Contact'
+import logo2 from "../images/logop2p2.svg"
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -78,14 +80,12 @@ const Footer = () => {
           
         </div>
       </div>
-
-      <div className="footericon">
-        <img src="" alt="" />
+      <a  href="/p2p" className="footericon link">
+        <img src={logo2} alt="p2plogo" />
         <div className="p2pfooter">
           p2paudit.xyz
         </div>
-      </div>
-
+      </a>
       <div className="socialmedia">
         <a href="https://twitter.com/p2pAudit" className="socialmedialink" target="_blank">
         <div className="media">

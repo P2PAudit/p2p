@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <div>
       <div className="contacthead">
-        Get in touch with us
+        For any Queries
       </div>
       <div className="contacttext">
-        Contact us for any reason, we’ll be happy to meet your needs.
+        Contact us , we’ll be happy to meet your needs.
       </div>
       <div className="contactfill">
         <input className="inputemail" placeholder="Your Email" type="email" id="email" size="30" required />

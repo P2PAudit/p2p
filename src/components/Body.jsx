@@ -58,6 +58,25 @@ const Body = () => {
       <div className="upcomingwars">
         Upcoming Audit Wars
       </div>
+      <div className="mediumsection">
+        <div className="blockmedium">
+          <div className='our'>
+            Our
+          </div>
+          <div className="blog">
+            Blog
+          </div>
+          <div className='readonmain'>
+            <div className='readon'>
+              <div className='readon1'>Read On</div>
+              <a href='https://p2paudit.medium.com/' target="_blank" className='mediumcom link'>Medium.com</a>
+            </div>
+            <div className="mediumicon">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

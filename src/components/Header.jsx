@@ -6,7 +6,7 @@ const header = () => {
   return (
     <>
       <nav>
-        <div className="navbar">
+        <div className="navbar" id='home'>
             <Link to='/p2p' className="logo">
               <img src={logo} className="logo" alt="logo" />
               <div className="p2paudit">
