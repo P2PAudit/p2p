@@ -321,7 +321,6 @@
 .App-header {
   background-color: black;
   min-height: 100vh;
-  /* width: 100vw; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -829,4 +828,57 @@
   font-weight: 700;
   font-size: 22px;
   color: #000000;
+}
+
+.mediumicon {
+  margin-top: auto;
+  margin-left: 20%;
+  /* padding-bottom: -10px; */
+}
+
+.faqsection {
+  background: linear-gradient(180deg, #243721 0%, rgba(3, 19, 0, 0.31) 100%);
+  height: 406px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.faqhead {
+  margin-left: auto;
+  margin-right: 2rem;
+  height: 60px;
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 22px;
+  /* identical to box height, or 50% */
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  background: linear-gradient(180deg, #03ff79 0%, rgba(2, 255, 120, 0.003) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.faqs {
+  margin-right: auto;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.faqs > div {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 1.5rem;
 }

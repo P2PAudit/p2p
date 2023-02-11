@@ -1,6 +1,7 @@
 import React from 'react'
 import ranger from "../images/ranger.svg"
 import protocol from "../images/protocol.svg"
+import mediumsection from "../images/mediumsection.svg"
 
 const Body = () => {
   return (
@@ -9,10 +10,16 @@ const Body = () => {
         Top auditors <span className='bodycompete'>compete</span> here<br />
         to Secure your Protocol
       </div>
+
+
+
       <div className="bodytext">
         Join our 2-Layer-Protection-Plan <br />
         to secure your project
       </div>
+
+
+
       <div className="explorelinks">
         <div className="auditbutton">
           <div>
@@ -25,6 +32,9 @@ const Body = () => {
           </div>
         </div>
       </div>
+
+
+
       <div className="card">
         <div className="carditem leftcard">
           <div className="cardicon">
@@ -55,9 +65,29 @@ const Body = () => {
           </div>
         </div>
       </div>
+
+
+
       <div className="upcomingwars">
         Upcoming Audit Wars
       </div>
+
+
+      <div className="faqsection">
+        <div className="faqhead">
+          &lt;p2paudit FAQ’s&gt;
+        </div>
+        <div className="faqs">
+          <div>Who needs a Smart Contract Audit? </div>
+          <div>What is the time scale for an audit to complete? </div>
+          <div>What is a Smart Contract Audit? </div>
+          <div>How much does a smart contract audit cost? </div>
+          <div>What Audit process do we follow? </div>
+          <div>What are the differentiating grounds for automated audit & manual audit? </div>
+        </div>
+      </div>
+
+
       <div className="mediumsection">
         <div className="blockmedium">
           <div className='our'>
@@ -72,11 +102,14 @@ const Body = () => {
               <a href='https://p2paudit.medium.com/' target="_blank" className='mediumcom link'>Medium.com</a>
             </div>
             <div className="mediumicon">
-              <img src="" alt="" />
+              <img src={mediumsection} alt="medium icon" />
             </div>
           </div>
         </div>
       </div>
+
+
+
     </div>
   )
 }
