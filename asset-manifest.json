@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/p2p/static/css/main.ce47b9a8.css",
-    "main.js": "/p2p/static/js/main.fab3a467.js",
+    "main.css": "/p2p/static/css/main.b42a8934.css",
+    "main.js": "/p2p/static/js/main.47d7600d.js",
     "static/js/787.5a475f35.chunk.js": "/p2p/static/js/787.5a475f35.chunk.js",
     "static/media/logop2p.svg": "/p2p/static/media/logop2p.7dccd129fbaf5d723901d5c7858fd63a.svg",
     "static/media/ranger.svg": "/p2p/static/media/ranger.5c5633686b0cb96b886badf22b98ac32.svg",
@@ -13,12 +13,12 @@
     "index.html": "/p2p/index.html",
     "static/media/protocol.svg": "/p2p/static/media/protocol.5aa96eeae436e6ef8860a2d240caceb4.svg",
     "static/media/medium.svg": "/p2p/static/media/medium.9ef35bcb873d4359615f587aa8d4e581.svg",
-    "main.ce47b9a8.css.map": "/p2p/static/css/main.ce47b9a8.css.map",
-    "main.fab3a467.js.map": "/p2p/static/js/main.fab3a467.js.map",
+    "main.b42a8934.css.map": "/p2p/static/css/main.b42a8934.css.map",
+    "main.47d7600d.js.map": "/p2p/static/js/main.47d7600d.js.map",
     "787.5a475f35.chunk.js.map": "/p2p/static/js/787.5a475f35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce47b9a8.css",
-    "static/js/main.fab3a467.js"
+    "static/css/main.b42a8934.css",
+    "static/js/main.47d7600d.js"
   ]
 }
