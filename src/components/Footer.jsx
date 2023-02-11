@@ -8,6 +8,7 @@ import linkedin from "../images/linkedin.svg"
 
 const Footer = () => {
   return (
+    <>
     <div className="footer">
 
       <div className="footersection">
@@ -81,45 +82,61 @@ const Footer = () => {
       </div>
 
       <div className="socialmedia">
+        <a href="https://twitter.com/p2pAudit" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={twitter} alt="twitter icon" className='iconmedia'/>
           <div className="mediatt">
             Twitter
           </div>
         </div>
+        </a>
+        <a href="https://discord.gg/ZRWsMpAAPz" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={discord} alt="discord icon" className='iconmedia'/>
           <div className="mediatt">
             Discord
           </div>
         </div>
+        </a>
+        <a href="https://t.me/p2p_audit" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={telegram} alt="telegram icon" className='iconmedia'/>
           <div className="mediatt">
             Telegram
           </div>
         </div>
+        </a>
+        <a href="https://p2paudit.medium.com/" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={medium} alt="medium icon" className='iconmedia'/>
           <div className="mediatt">
             Medium
           </div>
         </div>
+        </a>
+        <a href="" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={youtube} alt="youtube icon" className='iconmedia'/>
           <div className="mediatt">
             Youtube
           </div>
         </div>
+        </a>
+        <a href="" className="socialmedialink" target="_blank">
         <div className="media">
           <img src={linkedin} alt="linkedin icon" className='iconmedia'/>
           <div className="mediatt">
             LinkedIn
           </div>
         </div>
+        </a>
       </div>
 
     </div>
+    <div className="copyright">
+      ©2023 p2pAudit. All rights reserved.
+    </div>
+    </>
   )
 }
 
