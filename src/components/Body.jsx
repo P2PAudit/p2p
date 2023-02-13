@@ -1,4 +1,5 @@
 import React from 'react'
+import Faqsection from './Faqsection'
 import ranger from "../images/ranger.svg"
 import protocol from "../images/protocol.svg"
 import mediumsection from "../images/mediumsection.svg"
@@ -73,19 +74,7 @@ const Body = () => {
       </div>
 
 
-      <div className="faqsection">
-        <div className="faqhead">
-          &lt;p2paudit FAQ’s&gt;
-        </div>
-        <div className="faqs">
-          <div>Who needs a Smart Contract Audit? </div>
-          <div>What is the time scale for an audit to complete? </div>
-          <div>What is a Smart Contract Audit? </div>
-          <div>How much does a smart contract audit cost? </div>
-          <div>What Audit process do we follow? </div>
-          <div>What are the differentiating grounds for automated audit & manual audit? </div>
-        </div>
-      </div>
+      <Faqsection />
 
 
       <div className="mediumsection">

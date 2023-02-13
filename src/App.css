@@ -888,10 +888,21 @@
   margin-right: auto;
   margin-left: 2rem;
   display: flex;
+  width: 45%;
   flex-direction: column;
+  max-height: 300px;
+  overflow: scroll;
 }
 
-.faqs > div {
+ul {
+  padding-left: 0%;
+  list-style: none;
+  padding-right: 2rem;
+}
+
+ 
+
+.faqs > li {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -904,3 +915,28 @@
 html {
   scroll-behavior: smooth;
 }
+
+#accordian label + input[type='checkbox'] {
+  display: none;
+}
+
+#accordian > li label:hover{
+  color: #00ff77;
+}
+
+#accordian .contentaccordian {
+  overflow: hidden;
+  max-height: 0;
+  font-size: small;
+}
+
+#accordian label + input[type='checkbox']:checked +.contentaccordian {
+  /* display: none; */
+  max-height: fit-content;
+}
+
+#accordian > li {
+  display: flex;
+  flex-direction: column;
+}
+
