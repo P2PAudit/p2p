@@ -920,7 +920,7 @@ html {
   display: none;
 }
 
-#accordian > li label:hover{
+#accordian > li label:hover {
   color: #00ff77;
 }
 
@@ -930,9 +930,9 @@ html {
   font-size: small;
 }
 
-#accordian label + input[type='checkbox']:checked +.contentaccordian {
-  /* display: none; */
+#accordian label + input[type='checkbox']:checked + .contentaccordian {
   max-height: fit-content;
+  /* transition: max-height 3s; */
 }
 
 #accordian > li {
