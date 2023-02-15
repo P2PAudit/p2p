@@ -32,7 +32,7 @@ app.get('/getfaqs',async (req, res)=> {
 });
 
 
-app.listen(PORT, (error) =>{
+app.listen(process.env.port || PORT, (error) =>{
     if(!error) {
         console.log("Server is Successfully Running, and App is listening on port http://localhost:"+ PORT);
     }

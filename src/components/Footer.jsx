@@ -139,7 +139,7 @@ const Footer = () => {
 
     </div>
     <div className="copyright">
-      ©2023 p2pAudit. All rights reserved.
+      ©2023 p2pAudit. All rights <Link to="/admin" >reserved</Link> .
     </div>
     </>
   )
