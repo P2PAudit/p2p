@@ -9,11 +9,15 @@ const Faqsection = () => {
   const [faqlineup, setFaqlineup] = useState([]);
 
   const refresh = async () => {
-    await axios.get(`${urlserver}/getfaqs`)
-      .then((response) => {
-        const data = response.data;
-        setFaqlineup(data);
-      })
+    try {
+      await axios.get(`${urlserver}/getfaqs`)
+        .then((response) => {
+          const data = response.data;
+          setFaqlineup(data);
+        });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   React.useEffect(() => {
@@ -28,7 +32,7 @@ const Faqsection = () => {
         <ul className="faqs" id='accordian'>
 
         {faqlineup.length === 0 ? (
-            <div></div>
+            <div>Loading.....</div>
           ) :
             faqlineup.map((faq) => {
               return (<Faq faq={faq} />)

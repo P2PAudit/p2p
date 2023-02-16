@@ -73,7 +73,6 @@ const Body = () => {
         Upcoming Audit Wars
       </div>
 
-
       <Faqsection />
 
 

@@ -3,6 +3,7 @@ const mongoose = require("mongoose")
 const cors = require("cors");
 require("dotenv").config();
 const faqmodel = require('./models/faq')
+const queryModel = require('./models/query')
 const PORT = 5000;
 
 const app = express();
@@ -28,6 +29,23 @@ app.get('/getfaqs',async (req, res)=> {
 
     } catch (err) {
         console.log("error in faqmodel.find" + err);
+    }
+});
+
+app.post('/sendquery', async (req, res) => {
+
+    const email = req.body.email;
+    const message = req.body.message;
+  
+    const query = new queryModel({
+      email: email,
+      message: message
+    });
+    try {
+      await query.save();
+      res.send("query send succesful")
+    } catch (err) {
+      console.log("error found error details: " + err);
     }
 });
 

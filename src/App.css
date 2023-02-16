@@ -766,6 +766,10 @@
   border-radius: 9999px;
 }
 
+.contactsubscribe:hover {
+  color: #00ff77;
+}
+
 .link:link {
   text-decoration: none;
 }
@@ -939,4 +943,3 @@ html {
   display: flex;
   flex-direction: column;
 }
-
