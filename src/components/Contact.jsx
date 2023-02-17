@@ -8,19 +8,26 @@ const Contact = () => {
 
   const [email, setEmail] = useState(null);
   const [message, setMessage] = useState(null);
-  const [sending, setSending] = useState(false);
+  const [sending, setSending] = useState("Send Message");
+  const [tick, setTick] = useState(false);
+
+  const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const sendmessage = async (e) => {
     e.preventDefault();
     try {
-      setSending(true);
+      setSending("Sending...");
       await axios.post(`${urlserver}/sendquery`, {
         email:email,
         message:message
       })
       setEmail("");
       setMessage("");
-      setSending(false);
+      setTick(true);
+      setSending("Done");
+      await delay(1500);
+      setTick(false);
+      setSending("Send Message");
     } catch (error) {
       console.log(error);
     }
@@ -37,7 +44,7 @@ const Contact = () => {
       <div className="contactfill">
         <input value={email} onChange={(e) => { setEmail(e.target.value) }} className="inputemail" placeholder="Your Email" type="email" id="email" size="30" required />
         <button type="submit" className="contactsubscribe">
-          {sending ? <>Sending...</> :<>Send Message</>}
+          {sending} {tick?<>&#10003;</>:<></>}
         </button>
       </div>
       <textarea value={message} onChange={(e) => { setMessage(e.target.value) }} className="inputmsg" placeholder="Your Message Here..!" type="text" id="textmsg" size="30" required />
